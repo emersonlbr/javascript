@@ -21,8 +21,8 @@ var movies = [
   }
 ]
 
-movies.forEach(function(movie){
-
+function buildString(movie)
+{
   var result = "you have "
 
   if(movie.hasWatched)
@@ -35,8 +35,12 @@ movies.forEach(function(movie){
     result += "not seen ";
   }
 
-  result += "\"" + movie.title + "\" - "
+  result += "\"" + movie.title + "\" - ";
   result += movie.rating + " starts";
+  return result;
+}
 
-  console.log(result);
+movies.forEach(function(movie)
+{
+  console.log(buildString(movie));
 })
