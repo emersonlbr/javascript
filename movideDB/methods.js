@@ -9,4 +9,4 @@ var obj = {
   }
 }
 // calling the function
-obj.add(10,5); // same format as console.log();
+obj.add(10,5); // same format as console.log(); 
