@@ -14,6 +14,6 @@ setInterval(function(){
   if (isBlue) {
     body.style.background = "white";
   } else {
-      body.style.background = "red";
+      body.style.background = "#333";
     }
   }, 1000);
