@@ -30,4 +30,7 @@ button.onclick = function(){
 
 }
 
+var emerson = 12
+
+
 //changes the background color when click the button
