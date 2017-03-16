@@ -29,9 +29,9 @@ button.onclick = function(){
   body[0].style.backgroundColor = "grey";
 
 }
-
-var emerson = 12
-
-console.log("This should work just fine!");
+//
+// var emerson = 12
+//
+// console.log("This should work just fine!");
 
 //changes the background color when click the button
