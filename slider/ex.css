@@ -1,5 +1,12 @@
 
 #slider {
   width: 700px;
-  height: 400px;
+  height: 800px;
+}
+
+.button {
+  width: 100px;
+  color: red;
+  background-color: grey;
+
 }
