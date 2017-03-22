@@ -1,5 +1,7 @@
 .done {
   background-color: red;
+  color: white;
+  font-size: 28%;
 }
 
 .selected {
