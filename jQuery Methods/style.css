@@ -6,3 +6,60 @@
 .green {
   color: green;
 }
+
+html {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+body {
+  background-color: steelblue;
+}
+
+li {
+  display: inline-block;
+  padding: 5px;
+  background-color: #456;
+
+}
+
+p {
+  color: #243;
+}
+
+button {
+  padding: 10px;
+  /*background: purple;*/
+}
+
+.main {
+  width: 100px;
+  height: 100px;
+  background: teal;
+  float: left;
+  margin: 20px;
+}
+
+#lol {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#lmao {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.notmain {
+  width: 100px;
+  height: 100px;
+  background: teal;
+  float: left;
+  margin: 20px;
+  display: none;
+}
